@@ -50,15 +50,15 @@ for i in range(hospital_count):
   buildings.append(Building("hospital", 28))
 
 malls_count = int(input("How many malls? "))
-for i in range(hospital_count):
+for i in range(malls_count):
   buildings.append(Building("mall", 19))
 
 school_count = int(input("How many schools? "))
-for i in range(hospital_count):
+for i in range(school_count):
   buildings.append(Building("school", 11))
 
 grocery_store_count = int(input("How many grocery stores? "))
-for i in range(hospital_count):
+for i in range(grocery_store_count):
   buildings.append(Building("gc", 10))
 
 # Add other building types...
