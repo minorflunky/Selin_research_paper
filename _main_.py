@@ -37,17 +37,30 @@ house_count = int(input("How many houses? "))
 for i in range(house_count):
   buildings.append(Building("House", 5))
 
-apartment_count = int(input("How many apartments? "))
-for i in range(apartment_count):
-  buildings.append(Building("Apartment", 10))
+basic_apartment_count = int(input("How many basic apartments? "))
+for i in range(basic_apartment_count):
+  buildings.append(Building("Apartment", 7))
+
+lux_apartment_count = int(input("How many luxury apartments? "))
+for i in range(lux_apartment_count):
+  buildings.append(Building("Apartment", 8))
 
 hospital_count = int(input("How many hospitals? "))
 for i in range(hospital_count):
-  buildings.append(Building("hospital", 10))
+  buildings.append(Building("hospital", 28))
 
 malls_count = int(input("How many malls? "))
 for i in range(hospital_count):
-  buildings.append(Building("mall", 10))
+  buildings.append(Building("mall", 19))
+
+school_count = int(input("How many schools? "))
+for i in range(hospital_count):
+  buildings.append(Building("school", 11))
+
+grocery_store_count = int(input("How many grocery stores? "))
+for i in range(hospital_count):
+  buildings.append(Building("gc", 10))
+
 # Add other building types...
 
 if time_of_day == 'day':
